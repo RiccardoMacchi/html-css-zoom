@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Regole container */
+
+#container {
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 5%;
+    flex-wrap: wrap;
+    /* Debug */
+    background-color: blue;
+    overflow-x: auto;
+}
+
+.usercall {
+    /* Debug */
+    min-width: 200px;
+    min-height: 150px;
+    background-color: green;
+}
+
+
+
+
+/* Regole footer */
+
+footer {
+    min-height: 100px;
+}
