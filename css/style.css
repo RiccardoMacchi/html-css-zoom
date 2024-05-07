@@ -6,6 +6,7 @@
 /* Regole container */
 
 #container {
+    position: relative;
     height: calc(100vh - 100px);
     width: 100%;
     display: flex;
@@ -13,18 +14,44 @@
     gap: 10px;
     padding: 5%;
     flex-wrap: wrap;
-    /* Debug */
-    background-color: blue;
+    background-color: #000000;
     overflow-x: auto;
 }
 
-.usercall {
-    /* Debug */
-    min-width: 200px;
-    min-height: 150px;
-    background-color: green;
+#speakerview {
+    position: absolute;
+    right: 1%;
+    top: 2%;
 }
 
+span {
+    color: #fff;
+    background-color: #92958f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.usercall {
+    position: relative;
+    /* Debug */
+    /* min-width: 200px;
+    min-height: 150px;
+    background-color: green; */
+}
+
+.imguser img {
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.nomeuser{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    color: #fff;
+    /* opacity: 0.7; */    
+}
 
 
 
