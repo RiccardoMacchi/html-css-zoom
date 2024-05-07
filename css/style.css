@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    color: #fff;
 }
 
 /* Regole container */
@@ -25,7 +26,7 @@
 }
 
 span {
-    color: #fff;
+    /* color: #fff; */
     background-color: #92958f;
     padding: 5px;
     border-radius: 5px;
@@ -49,7 +50,7 @@ span {
     position: absolute;
     left: 0;
     bottom: 10%;
-    color: #fff;
+    /* color: #fff; */
     /* opacity: 0.7; */    
 }
 
@@ -58,5 +59,53 @@ span {
 /* Regole footer */
 
 footer {
-    min-height: 100px;
+    height: 100px;
+    background-color: #222222;
+}
+
+#contfoot {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divfooter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.icone {
+    font-size: 45px;
+    text-align: center;
+    color: #fff;
+    /* padding: 10px; */
+}
+
+h4 {
+    font-size: 14px;
+}
+
+
+.icone #share {
+    color: green;
+}
+
+#divfooterend{
+    position: relative;
+    width: 8%;
+    background-color: #92958f;
+    height: 100%;
+}
+
+#divfooterend h4 {
+    position: absolute;
+    left: 50%;
+    /* bottom: 50%; */
+    top: 50%;
+    /* right: 50%; */
+    transform: translate(-50%,-50%);
+    color: red;
 }
