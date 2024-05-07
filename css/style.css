@@ -3,11 +3,13 @@
     box-sizing: border-box;
     color: #fff;
 }
-
+#container{
+    position: relative;
+}
 /* Regole container */
 
-#container {
-    position: relative;
+#containercall {
+    /* position: relative; */
     height: calc(100vh - 100px);
     width: 100%;
     display: flex;
@@ -23,15 +25,17 @@
     position: absolute;
     right: 1%;
     top: 2%;
+    z-index: 10;
 }
 
 span {
     /* color: #fff; */
-    background-color: #92958f;
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 5px;
     border-radius: 5px;
 }
 
+/* Regole User */
 
 .usercall {
     position: relative;
@@ -42,7 +46,7 @@ span {
 }
 
 .imguser img {
-    max-width: 300px;
+    max-width: 275px;
     max-height: 250px;
 }
 
@@ -64,6 +68,7 @@ footer {
 }
 
 #contfoot {
+    margin-left: 10px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -85,6 +90,7 @@ footer {
 }
 
 h4 {
+    margin-top: 2px;
     font-size: 14px;
 }
 
@@ -108,4 +114,8 @@ h4 {
     /* right: 50%; */
     transform: translate(-50%,-50%);
     color: red;
+}
+
+.fa-share-from-square {
+    color: green;
 }
